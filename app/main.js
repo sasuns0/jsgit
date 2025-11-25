@@ -35,7 +35,7 @@ switch (command) {
     commitTree(args);
     break;
   case "clone":
-    // clone(args);
+    clone(args);
     break;
   default:
     throw new Error(`Unknown command ${command}`);
