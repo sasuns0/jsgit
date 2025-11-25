@@ -1,0 +1,15 @@
+{
+    "name": "jsgit",
+    "version": "1.0.0",
+    "description": "Git implementation on JavaScript",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "dev": "node app/main.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@eslint/js": "^9.39.0"
+    }
+}
