@@ -26,10 +26,10 @@ switch (command) {
     hashObject(args)
     break;
   case "ls-tree":
-    // lsTree(args);
+    lsTree(args);
     break;
   case "write-tree":
-    // writeTree();
+    writeTree();
     break;
   case "commit-tree":
     // commitTree(args);
