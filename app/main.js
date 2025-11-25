@@ -32,7 +32,7 @@ switch (command) {
     writeTree();
     break;
   case "commit-tree":
-    // commitTree(args);
+    commitTree(args);
     break;
   case "clone":
     // clone(args);
