@@ -17,13 +17,13 @@ const args = process.argv.slice(3);
 
 switch (command) {
   case "init":
-    // createGitDirectory();
+    createGitDirectory();
     break;
   case "cat-file":
-    // catFile(args);
+    catFile(args);
     break;
   case "hash-object":
-    // hashObject(args)
+    hashObject(args)
     break;
   case "ls-tree":
     // lsTree(args);
